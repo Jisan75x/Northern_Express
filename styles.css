@@ -1,0 +1,387 @@
+/* Home Page */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {font-weight: 800;}
+
+h1, h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-bottom: 0;
+    padding: 15px auto;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+#title {
+    background-color: #0B6623;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.purchase-btn {
+    margin: 3% 3% 3% 0;
+}
+
+#features {
+    padding: 5% 10%;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+}
+
+.feature-title, .feature-text {
+    text-align: center;
+}
+
+.feature-title {
+    font-weight: 800;
+}
+
+.feature-col {
+    margin: 5% 0;
+}
+
+.feature-row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.feature-icon {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.feature-icon:hover {
+    color: #0B6623;
+}
+
+#testimonials, #press {
+    text-align: center;
+    background-color: #00a86b;
+}
+
+#testimonials {
+    color: #fff;
+}
+
+.c-item {
+    height: 480px;
+  }
+  
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 50px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.pricing-header {
+    font-size: 1.5rem;
+}
+
+#cta {
+    background-color: #0B6623;
+    padding: 8% 3% 10%;
+    text-align: center;
+}
+
+.cta-header {
+    margin: 40px auto;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.cta-em {
+    color: #fff;
+    font-size: 1.5rem;
+ }
+
+
+.cta-row {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#footer {
+    padding: 10vh 2%;
+    text-align: center;
+}
+
+.fb-icon {
+    color: #242424;
+    transition: color 0.2s;
+}
+
+.fb-icon:hover{
+    color: #3b5998;
+}
+
+.tw-icon {
+    color: #242424;
+    transition: color 0.2s;
+}
+
+.tw-icon:hover{
+    color: #00acee;
+}
+
+.in-icon {
+    color: #242424;
+    transition: color 0.2s;
+}
+
+.in-icon:hover{
+    color: #E4405F
+}
+
+.mail-icon {
+    color: #242424;
+    transition: color 0.2s;
+}
+
+.mail-icon:hover{
+    color: #c71610 
+}
+
+.footer-icon {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Book Now Page */
+
+.signup-form{
+    height:500px;
+    width:700px;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 25px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    background-color: #0B6623;
+    border: 2px solid #0B6623;
+}
+.Signup-head{
+    background-color: #fff;
+    color: #0B6623;
+    padding:8px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.hs{
+    margin-left: 18%;
+}
+
+.signup-content2{
+    color: aliceblue;
+}
+.signup-content .radio{
+    margin:10px 10px;
+}
+.signup-content2 .input {
+    width:250px;
+    height: 30px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color:#242424;
+}
+
+.signup-content2 .input2 {
+    width:250px;
+    height: 30px;
+    padding:10px;
+    margin-top: 20px;
+    color:#242424;
+}
+.signup-content2 .date{
+    width:250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding:10px;
+    color:#fff;
+}
+.signup-content2  .person{
+    width:250px;
+    height: 30px;
+    margin-top: 20px;
+    padding:10px;
+    color:#fff;
+}
+.signup-content2 .travel{
+    width:250px;
+    height: 30px;
+    margin-top: 20px;
+    padding:10px;
+    color:#fff;
+}
+.signup-content2 .travel2{
+    width:250px;
+    height: 30px;
+    margin-left: -140px;
+}
+.signup-content2 .submit-btn{
+    border:none;
+    outline:none;
+    width:200px;
+    padding:10px;
+    margin-top: 20px;
+    margin-left:33%;
+}
+
+/* Destination Page */
+
+.content-table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 25%;
+}
+
+.head{
+    color: #0B6623;
+    margin-left: 29%;
+    margin-top: 20px;
+}
+
+.content-table thead tr {
+    background-color: #0B6623;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0B6623;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #0B6623;
+}
+
+/*About Us Page */
+
+.headline {
+    color: #0B6623;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+#about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 12%;
+}
+.about-left img{
+    width: 420px;
+    height: auto;
+    border-radius: 25px;
+}
+.about-right {
+    width: 54%;
+}
+
+.about-right ul li {
+    display: flex;
+    align-items: center;
+}
+
+.about-right h1 {
+    color: #0B6623;
+    font-size: 37px;
+    margin-bottom: 5px;
+}
+
+.about-right p {
+    color: #444;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.about-right .address {
+    margin: 25px 0;
+}
+
+.about-right .address ul li {
+    margin-bottom: 5px;
+}
+
+.address .address-logo {
+    margin-right: 15px;
+    color: #0B6623;
+}
+
+.p_sp{
+    margin-left: 5px;
+}

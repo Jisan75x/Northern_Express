@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Northern Express - Booking</title>
+    <link rel="icon" href="rail.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class='navbar-brand' href="Index.html">
+                    <img src="rail.png" alt="" width="40" height="40" class="d-link-align-center">
+                    Northern Express</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
+                    <ul class='navbar-nav ms-auto'>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='Booking.html' >Book Now!</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='Destinations.html' target="_blank">Destinations</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='About.html' target="_blank">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <form>
+
+        <div class="signup-form">
+
+            <div class="Signup-head ">
+                <h1 class="hs">Book Your Ticket</h1>
+            </div>
+
+            <div class="signup-content">
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">Depart</label>
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">Depart and Return</label>
+            </div>
+
+            <div class="signup-content2">
+                <label class="text-white" style="margin-left:10px;">Destination</label>
+                <input type="text" placeholder="From" class="input ">
+                <input type="text" placeholder="To" class="input2"><br>
+            
+
+            <label class="text-white" style="margin-left:10px;">Depart</label>
+            <input type="date" class="date bg-light text-black">
+            <label class="text-white" style="margin-left:10px;">Return</label>
+            <input type="date" class="date bg-light text-black">
+            
+            <label class="text-white" style="margin-left:10px;">Total Passenger</label>
+            <input type="number" class="bg-light text-black person" placeholder="Adults">
+            <input type="number" class="bg-light text-black person" placeholder="Children"><br>
+
+            <label class="text-white travel">Travel Class</label>
+            <select class="bg-light text-black travel2">
+                <option></option>
+                <option>Shovan</option>
+                <option>Shovan Chair</option>
+                <option>AC Chair</option>
+                <option>First Class Chair</option>
+                <option>First Class Berth</option>
+                <option>First Class Seat</option>
+                <option>AC Berth</option>
+                <option>AC Seat</option>
+            </select>
+
+            <input type="submit" value="Check Availability" class="submit-btn bg-dark text-white">
+        </div>
+        </div>
+    </form>
+    
+    <footer id="footer">
+        <p>
+             <a class="tw-icon" href="https://twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter footer-icon"></i> 
+             </a>
+             <a class="fb-icon" href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f footer-icon"></i>
+            </a>
+             <a class="in-icon" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram footer-icon"></i> 
+            </a>
+             <a class="mail-icon" href="https://www.google.com/gmail/about/" target="_blank">
+                <i class="fa-solid fa-envelope footer-icon"></i>
+             </a>
+        </p>
+        <p>© 2023 Copyright Northern Express</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4be4ee58f9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
